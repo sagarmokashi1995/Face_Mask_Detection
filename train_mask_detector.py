@@ -75,7 +75,7 @@ aug = ImageDataGenerator(
 
 #baseModel = ResNet50(weights="imagenet", include_top=False, 	input_tensor=Input(shape=(224, 224, 3))) ## train-80, test-88
 
-baseModel = VGG16(weights="imagenet", include_top=False, 	input_tensor=Input(shape=(224, 224, 3))) ## train-96 test-97
+baseModel = VGG16(weights="imagenet", include_top=False, 	input_tensor=Input(shape=(224, 224, 3))) ## train-94 test-91
 
 
 
